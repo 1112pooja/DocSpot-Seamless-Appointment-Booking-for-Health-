@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+
+  <!-- Background blob (light blue) -->
+  <ellipse cx="200" cy="130" rx="165" ry="120" fill="#d6eaf8" opacity="0.7"/>
+
+  <!-- ===== CALENDAR ===== -->
+  <!-- Calendar body -->
+  <rect x="120" y="155" width="160" height="110" rx="6" fill="white" stroke="#c0d6e8" stroke-width="1.5"/>
+  <!-- Calendar header (blue) -->
+  <rect x="120" y="155" width="160" height="28" rx="6" fill="#2196F3"/>
+  <rect x="120" y="170" width="160" height="13" fill="#2196F3"/>
+  <!-- Spiral rings -->
+  <circle cx="150" cy="155" r="5" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+  <circle cx="173" cy="155" r="5" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+  <circle cx="196" cy="155" r="5" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+  <circle cx="219" cy="155" r="5" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+  <circle cx="242" cy="155" r="5" fill="none" stroke="#1565C0" stroke-width="2.5"/>
+  <!-- Calendar grid cells -->
+  <!-- Row 1 -->
+  <rect x="128" y="188" width="20" height="16" rx="3" fill="#64B5F6"/>
+  <rect x="153" y="188" width="20" height="16" rx="3" fill="#64B5F6"/>
+  <rect x="178" y="188" width="20" height="16" rx="3" fill="#64B5F6"/>
+  <rect x="203" y="188" width="20" height="16" rx="3" fill="#64B5F6"/>
+  <rect x="228" y="188" width="20" height="16" rx="3" fill="#64B5F6"/>
+  <!-- Row 2 -->
+  <rect x="128" y="209" width="20" height="16" rx="3" fill="#E3F2FD"/>
+  <rect x="153" y="209" width="20" height="16" rx="3" fill="#64B5F6"/>
+  <rect x="178" y="209" width="20" height="16" rx="3" fill="#E3F2FD"/>
+  <rect x="203" y="209" width="20" height="16" rx="3" fill="#E3F2FD"/>
+  <rect x="228" y="209" width="20" height="16" rx="3" fill="#64B5F6"/>
+  <!-- Row 3 -->
+  <rect x="128" y="230" width="20" height="16" rx="3" fill="#E3F2FD"/>
+  <rect x="153" y="230" width="20" height="16" rx="3" fill="#E3F2FD"/>
+  <rect x="178" y="230" width="20" height="16" rx="3" fill="#64B5F6"/>
+  <rect x="203" y="230" width="20" height="16" rx="3" fill="#E3F2FD"/>
+  <rect x="228" y="230" width="20" height="16" rx="3" fill="#E3F2FD"/>
+  <!-- Checkmarks in blue cells -->
+  <polyline points="131,196 136,200 143,192" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="156,196 161,200 168,192" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="181,196 186,200 193,192" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="206,196 211,200 218,192" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="231,196 236,200 243,192" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="156,217 161,221 168,213" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="231,217 236,221 243,213" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="181,238 186,242 193,234" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- ===== HEART with ECG ===== -->
+  <!-- Heart shape -->
+  <path d="M200 125 C200 125 180 108 168 112 C155 116 150 130 162 140 L200 168 L238 140 C250 130 245 116 232 112 C220 108 200 125 200 125 Z" fill="#E53935"/>
+  <!-- ECG line inside heart -->
+  <polyline points="174,132 182,132 186,120 190,144 194,126 198,132 226,132" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- ===== DOCTOR (left) ===== -->
+  <!-- Doctor shoes -->
+  <ellipse cx="91" cy="267" rx="12" ry="5" fill="#1565C0"/>
+  <ellipse cx="109" cy="268" rx="10" ry="4" fill="#1565C0"/>
+  <!-- Doctor legs -->
+  <rect x="86" y="230" width="14" height="37" rx="5" fill="#1E88E5"/>
+  <rect x="102" y="230" width="13" height="37" rx="5" fill="#1E88E5"/>
+  <!-- Doctor coat body -->
+  <rect x="78" y="175" width="48" height="65" rx="8" fill="white" stroke="#e0e0e0" stroke-width="1"/>
+  <!-- Coat lapels -->
+  <path d="M102 175 L90 195 L102 185 Z" fill="#e0e0e0"/>
+  <path d="M102 175 L114 195 L102 185 Z" fill="#e0e0e0"/>
+  <!-- Blue shirt underneath -->
+  <rect x="95" y="175" width="14" height="30" rx="3" fill="#1E88E5"/>
+  <!-- Doctor right arm holding clipboard -->
+  <rect x="126" y="180" width="12" height="50" rx="6" fill="white" stroke="#e0e0e0" stroke-width="1"/>
+  <!-- Clipboard -->
+  <rect x="132" y="185" width="28" height="38" rx="4" fill="#F5F5F5" stroke="#bdbdbd" stroke-width="1.2"/>
+  <rect x="140" y="181" width="12" height="8" rx="2" fill="#bdbdbd"/>
+  <line x1="137" y1="198" x2="155" y2="198" stroke="#90caf9" stroke-width="1.5"/>
+  <line x1="137" y1="205" x2="155" y2="205" stroke="#90caf9" stroke-width="1.5"/>
+  <line x1="137" y1="212" x2="150" y2="212" stroke="#90caf9" stroke-width="1.5"/>
+  <!-- Doctor left arm -->
+  <rect x="66" y="180" width="12" height="45" rx="6" fill="white" stroke="#e0e0e0" stroke-width="1"/>
+  <!-- Stethoscope -->
+  <path d="M88 190 Q78 205 80 220 Q82 230 90 230" fill="none" stroke="#555" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="90" cy="232" r="5" fill="#555"/>
+  <circle cx="90" cy="232" r="2.5" fill="#888"/>
+  <!-- Doctor neck -->
+  <rect x="96" y="158" width="12" height="18" rx="5" fill="#FFCCBC"/>
+  <!-- Doctor head -->
+  <ellipse cx="102" cy="150" rx="18" ry="20" fill="#FFCCBC"/>
+  <!-- Doctor hair (dark) -->
+  <ellipse cx="102" cy="132" rx="18" ry="10" fill="#5D4037"/>
+  <rect x="84" y="132" width="36" height="10" rx="4" fill="#5D4037"/>
+  <!-- Doctor face features -->
+  <circle cx="96" cy="150" r="2" fill="#795548"/>
+  <circle cx="108" cy="150" r="2" fill="#795548"/>
+  <path d="M97 159 Q102 163 107 159" fill="none" stroke="#795548" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- ===== PATIENT (right) ===== -->
+  <!-- Patient shoes -->
+  <ellipse cx="295" cy="267" rx="10" ry="4" fill="#2E7D32"/>
+  <ellipse cx="311" cy="267" rx="12" ry="5" fill="#2E7D32"/>
+  <!-- Patient legs (jeans blue) -->
+  <rect x="290" y="230" width="13" height="37" rx="5" fill="#1565C0"/>
+  <rect x="306" y="230" width="14" height="37" rx="5" fill="#1565C0"/>
+  <!-- Patient body (green sweater) -->
+  <rect x="282" y="175" width="48" height="65" rx="8" fill="#43A047"/>
+  <!-- Patient left arm pointing -->
+  <rect x="262" y="178" width="12" height="45" rx="6" fill="#43A047"/>
+  <ellipse cx="263" cy="223" rx="7" ry="6" fill="#FFCCBC"/>
+  <!-- Patient right arm down -->
+  <rect x="330" y="185" width="12" height="40" rx="6" fill="#43A047"/>
+  <!-- Patient neck -->
+  <rect x="296" y="158" width="12" height="18" rx="5" fill="#FFCCBC"/>
+  <!-- Patient head -->
+  <ellipse cx="302" cy="150" rx="18" ry="20" fill="#FFCCBC"/>
+  <!-- Patient hair -->
+  <ellipse cx="302" cy="132" rx="18" ry="10" fill="#4A148C"/>
+  <rect x="284" y="132" width="36" height="10" rx="4" fill="#4A148C"/>
+  <!-- Patient face features -->
+  <circle cx="296" cy="150" r="2" fill="#795548"/>
+  <circle cx="308" cy="150" r="2" fill="#795548"/>
+  <path d="M297 159 Q302 163 307 159" fill="none" stroke="#795548" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- X marks (background decoration) -->
+  <text x="220" y="90" font-size="18" fill="#90CAF9" opacity="0.6" font-weight="bold">×</text>
+  <text x="150" y="85" font-size="14" fill="#90CAF9" opacity="0.5" font-weight="bold">×</text>
+
+</svg>

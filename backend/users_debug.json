@@ -1,0 +1,47 @@
+[
+  {
+    "email": "pandupooja1277@gmail.com",
+    "type": "user",
+    "name": "karthik"
+  },
+  {
+    "email": "karthik23785a3101@gmail.com",
+    "type": "admin",
+    "name": "Pooja"
+  },
+  {
+    "email": "akavipoojsindu@gmail.com",
+    "type": "user",
+    "name": "A POOJA SREE"
+  },
+  {
+    "email": "rebelkarthikpapu@gmail.com",
+    "type": "user",
+    "name": "C.karthik"
+  },
+  {
+    "email": "admin@docspot.com",
+    "type": "user",
+    "name": "admin"
+  },
+  {
+    "email": "test@test.com",
+    "type": "user",
+    "name": "Test User"
+  },
+  {
+    "email": "hydrakarthik3@gmail.com",
+    "type": "user",
+    "name": "karthik C"
+  },
+  {
+    "email": "jayashalu87@gmail.com",
+    "type": "user",
+    "name": "kavi"
+  },
+  {
+    "email": "kavithaadiyapatham1984@gmail.com",
+    "type": "admin",
+    "name": "pooja"
+  }
+]
