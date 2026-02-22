@@ -1,3 +1,6 @@
+## DEMO VIDEO
+https://drive.google.com/drive/folders/1lBDAmO0kPwREQXr8qZgCOGFLnkmGhWvI?usp=sharing
+
 # Doctor Appointment Booking System (DocSpot) :
 
 This project is a full-stack web application developed to simplify the process of booking doctor appointments. It allows users to easily find doctors, schedule appointments, and track their booking status. The system also provides separate dashboards for doctors and admins to manage appointments and users efficiently.
