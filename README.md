@@ -85,35 +85,35 @@ npm start
 
 # Application Flow:
 
-1. User registers and logs in
+# 1. User registers and logs in
 <img width="1887" height="871" alt="Screenshot 2026-02-22 100754" src="https://github.com/user-attachments/assets/cddb2c07-5bce-4935-8aab-584593a0ccfc" />
 
 
 
-3. User views available doctors
+# 3. User views available doctors
    <img width="1872" height="877" alt="Screenshot 2026-02-22 091445" src="https://github.com/user-attachments/assets/dc429a55-284c-4e46-91b5-a2923b19b937" />
 
 
-5. User books an appointment
+# 5. User books an appointment
 <img width="1018" height="716" alt="Screenshot 2026-02-22 100300" src="https://github.com/user-attachments/assets/633caff5-d48f-46f3-8446-7d6b8f664a5e" />
 
 
 
 
-7. Admin approves doctor registrations
+# 7. Admin approves doctor registrations
 <img width="1247" height="802" alt="Screenshot 2026-02-20 121114" src="https://github.com/user-attachments/assets/a012a87e-b929-4c13-9621-fa8d64d66e36" />
 
 
 
 
 
-9. Doctor manages appointment requests
+# 9. Doctor manages appointment requests
     <img width="1908" height="842" alt="Screenshot 2026-02-22 100410" src="https://github.com/user-attachments/assets/40d258d9-0517-4f62-89a1-ac0a1c58249a" />
 
 
 
 
-11. User receives updates and can track booking status
+# 11. User receives updates and can track booking status
 <img width="1917" height="542" alt="Screenshot 2026-02-22 100635" src="https://github.com/user-attachments/assets/1e105684-7417-49e9-854b-b689b6e4b788" />
 
 
