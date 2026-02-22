@@ -86,32 +86,35 @@ npm start
 # Application Flow:
 
 1. User registers and logs in
-<img width="1887" height="871" alt="image" src="https://github.com/user-attachments/assets/a5642887-7220-49c4-9f88-6d4348aa0579" />
+<img width="1887" height="871" alt="Screenshot 2026-02-22 100754" src="https://github.com/user-attachments/assets/cddb2c07-5bce-4935-8aab-584593a0ccfc" />
 
 
 
 3. User views available doctors
-   <img width="1907" height="891" alt="Screenshot 2026-02-22 091642" src="https://github.com/user-attachments/assets/614c3bfc-32bc-46bf-afbd-6765946bf96e" />
+   <img width="1872" height="877" alt="Screenshot 2026-02-22 091445" src="https://github.com/user-attachments/assets/dc429a55-284c-4e46-91b5-a2923b19b937" />
 
 
 5. User books an appointment
-   <img width="1908" height="842" alt="image" src="https://github.com/user-attachments/assets/cad4d77e-1fef-45f6-b0e0-e19b49d5ecae" />
+<img width="1018" height="716" alt="Screenshot 2026-02-22 100300" src="https://github.com/user-attachments/assets/633caff5-d48f-46f3-8446-7d6b8f664a5e" />
+
 
 
 
 7. Admin approves doctor registrations
-   <img width="1855" height="653" alt="image" src="https://github.com/user-attachments/assets/2dd38fc4-fb96-47a9-9c4a-f66f391f12d0" />
+<img width="1247" height="802" alt="Screenshot 2026-02-20 121114" src="https://github.com/user-attachments/assets/a012a87e-b929-4c13-9621-fa8d64d66e36" />
+
+
 
 
 
 9. Doctor manages appointment requests
-    <img width="1908" height="842" alt="image" src="https://github.com/user-attachments/assets/8bcd4baa-9f0a-4cd4-acd0-e5849b22ffed" />
+    <img width="1908" height="842" alt="Screenshot 2026-02-22 100410" src="https://github.com/user-attachments/assets/40d258d9-0517-4f62-89a1-ac0a1c58249a" />
+
 
 
 
 11. User receives updates and can track booking status
-<img width="1917" height="542" alt="image" src="https://github.com/user-attachments/assets/07526a1e-704b-4003-aae9-fdd7faa3d844" />
-
+<img width="1917" height="542" alt="Screenshot 2026-02-22 100635" src="https://github.com/user-attachments/assets/1e105684-7417-49e9-854b-b689b6e4b788" />
 
 
 # Future Enhancements:
