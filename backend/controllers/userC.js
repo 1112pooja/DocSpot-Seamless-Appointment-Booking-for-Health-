@@ -158,7 +158,8 @@ const getAllDoctorsController = async (req, res) => {
 const bookAppointmentController = async (req, res) => {
     try {
         const { doctorId, doctorInfo, userInfo, date, time } = req.body;
-        const document = req.file ? req.file.filename : '';
+        // req.file.path is the full Cloudinary URL when using multer-storage-cloudinary
+        const document = req.file ? req.file.path : '';
 
         const newAppointment = new Appointment({
             userId: req.userId,

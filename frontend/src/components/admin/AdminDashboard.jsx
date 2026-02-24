@@ -9,6 +9,7 @@ const AdminDashboard = () => {
     const [stats, setStats] = useState({ users: 0, doctors: 0, appointments: 0, pending: 0 });
     const [recentDoctors, setRecentDoctors] = useState([]);
     const [recentAppts, setRecentAppts] = useState([]);
+    // eslint-disable-next-line no-unused-vars
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {

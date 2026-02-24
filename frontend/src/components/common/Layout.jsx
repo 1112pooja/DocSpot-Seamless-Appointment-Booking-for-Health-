@@ -1,5 +1,5 @@
 // @ts-nocheck
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback } from 'react'; // eslint-disable-line no-unused-vars
 import { useNavigate, useLocation } from 'react-router-dom';
 import API from '../../utils/API';
 
@@ -7,6 +7,7 @@ const Layout = ({ children, title }) => {
     const navigate = useNavigate();
     const location = useLocation();
     const [user, setUser] = useState(null);
+    // eslint-disable-next-line no-unused-vars
     const [sidebarOpen, setSidebarOpen] = useState(true);
 
     const fetchUser = useCallback(async () => {

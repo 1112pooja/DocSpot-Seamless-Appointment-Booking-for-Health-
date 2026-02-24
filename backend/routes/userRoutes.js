@@ -1,7 +1,9 @@
+// @ts-nocheck
 const express = require('express');
 const router = express.Router();
 const multer = require('multer');
-const path = require('path');
+const { CloudinaryStorage } = require('multer-storage-cloudinary');
+const cloudinary = require('../config/cloudinaryConfig');
 const authMiddleware = require('../middlewares/authMiddleware');
 const {
     registerController,
@@ -16,10 +18,14 @@ const {
     cancelAppointmentController,
 } = require('../controllers/userC');
 
-// Multer config
-const storage = multer.diskStorage({
-    destination: (req, file, cb) => cb(null, 'uploads/'),
-    filename: (req, file, cb) => cb(null, Date.now() + path.extname(file.originalname)),
+// Cloudinary storage config — files go directly to Cloudinary, never touch disk
+const storage = new CloudinaryStorage({
+    cloudinary,
+    params: {
+        folder: 'docspot/documents',
+        allowed_formats: ['jpg', 'jpeg', 'png', 'pdf'],
+        resource_type: 'auto',
+    },
 });
 const upload = multer({ storage });
 
